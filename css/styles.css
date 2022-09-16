@@ -432,14 +432,14 @@ body {
   color: #6A983C;
 }
 
-.input-group {
+.group1 {
   border: 1px solid #D1D1D1;
   border-radius: 12px;
   max-width: 500px !important;
 }
 
-.btn {
-  border: none;
+.btn1 {
+  border: none !important;
 }
 
 .button-drodown {
@@ -460,8 +460,8 @@ body {
   margin-left: 5px;
 }
 
-.form-control {
-  border: none;
+.form-control__search {
+  border: none !important;
   border-radius: 50px;
   background-image: url("../images/search.svg");
   background-repeat: no-repeat;
@@ -485,8 +485,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .input-group {
-    position: absolute;
+  .group1 {
+    position: absolute !important;
     top: 200px;
     width: 90% !important;
   }
@@ -504,13 +504,13 @@ body {
   }
 }
 @media only screen and (min-width: 768px) {
-  .input-group {
+  .group1 {
     left: calc(50% - 220px);
   }
 }
 @media only screen and (min-width: 992px) {
-  .input-group {
-    position: static;
+  .group1 {
+    position: static !important;
     width: 100% !important;
   }
 }
@@ -537,10 +537,40 @@ body {
 }
 
 .hero-detail__wrapper {
-  background-image: url("../images/strawberry.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(rgba(0, 0, 0, 0))), url("../images/strawberry.jpg");
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url("../images/strawberry.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 313px;
   padding-bottom: 32px;
+}
+
+.hero-detail__names {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A9A9A9;
+}
+
+.hero-detail__dates {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.hero-detail__text-box {
+  max-width: 569px;
+  width: 100%;
+}
+
+.hero-detail__title {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  color: #FFFFFF;
 }/*# sourceMappingURL=styles.css.map */
