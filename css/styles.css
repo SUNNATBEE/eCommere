@@ -544,33 +544,4 @@ body {
   background-position: center;
   padding-top: 313px;
   padding-bottom: 32px;
-}
-
-.hero-detail__names {
-  font-family: "Poppins", "Arial", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  color: #A9A9A9;
-}
-
-.hero-detail__dates {
-  font-family: "Poppins", "Arial", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
-
-.hero-detail__text-box {
-  max-width: 569px;
-  width: 100%;
-}
-
-.hero-detail__title {
-  font-family: "Poppins", "Arial", sans-serif;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 140%;
-  color: #FFFFFF;
 }/*# sourceMappingURL=styles.css.map */
