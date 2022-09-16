@@ -542,6 +542,10 @@ body {
   width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(rgba(0, 0, 0, 0))), url("../images/strawberry.jpg");
   background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url("../images/strawberry.jpg");
+
+.hero-detail__wrapper {
+  background-image: url("../images/strawberry.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -551,6 +555,7 @@ body {
 
 .dinner-title {
   padding-bottom: 32px;
+
   padding-left: 50px;
   width: 100%;
   max-width: 500px;
@@ -577,8 +582,11 @@ body {
     padding-left: 0;
   }
 }
+
+}
+
+
 .blog-hero {
-  padding-top: 24px;
   padding-bottom: 96px;
 }
 
@@ -669,7 +677,7 @@ body {
 }
 
 .child-box {
-  width: 380px;
+  max-width: 380px;
 }
 
 .tag-title {
@@ -919,6 +927,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 /* Footer start */
 .footer__title {
   font-family: "Poppins", "Arial", sans-serif;
@@ -965,3 +974,17 @@ body {
 }
 
 /* Footer end *//*# sourceMappingURL=styles.css.map */
+
+
+@media (max-width: 400px) {
+  .blog-hero {
+    padding-bottom: 40px;
+  }
+  .tag-title {
+    font-size: 18px;
+  }
+  .page-row {
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=styles.css.map */
+
