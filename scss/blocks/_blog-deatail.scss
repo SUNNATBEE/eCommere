@@ -1,4 +1,71 @@
 
+/*dinner*/
+.dinner-inner{
+    margin-top: 64px;
+    width: 100%;
+    background:linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%) , url("../images/strawberry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    padding-top: 100px;
+}
+.dinner-title{
+    padding-bottom: 32px;
+    padding-left: 50px;
+    width: 100%;
+    max-width: 500px;
+}
+.dinner-box{
+    padding-left: 50px;
+    padding-top: 345px;
+}
+@media only screen and (min-width:800px){
+.dinner-inner{
+    display: flex;
+    justify-content: center;
+}
+.dinner-title{
+    padding-top: 313px;
+}
+.dinner-title{
+    padding-left: 0;
+}
+}
+.details__wrapper {
+    max-width: ;
+}
+.details__info {
+}
+.details__heading {
+}
+.details_list {
+}
+.list-unstyled {
+}
+.details__item {
+}
+.details__link {
+}
+.text-decoration-none {
+}
+.details__textbox {
+}
+.details__text {
+}
+.details__info1 {
+}
+.details {
+}
+.link {
+}
+.icons__list {
+}
+.icons__item {
+}
+.icon__link {
+
+
 .hero-detail__wrapper{
     background-image: url("../images/strawberry.jpg");
     background-repeat: no-repeat;
@@ -6,4 +73,5 @@
     background-position: center;
     padding-top: 313px;
     padding-bottom: 32px;
+
 }
